@@ -51,7 +51,7 @@ def about():
 @admingam.route("/contact")
 def contact():
     return render_template("contact.html")
-
+ 
 @admingam.route("/post")
 def post():
     return render_template("post.html")
